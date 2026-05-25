@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@700;800&display=swap');
+
+:root {
+  --bg: #0a0a0a;
+  --bg-2: #111111;
+  --bg-3: #1a1a1a;
+  --bg-4: #222222;
+  --border: rgba(255,255,255,0.08);
+  --border-hover: rgba(255,255,255,0.16);
+  --text: #f0f0f0;
+  --text-2: #888;
+  --text-3: #555;
+
+  --ff: #FF4D1C;
+  --ff-bg: rgba(255,77,28,0.12);
+  --ff-border: rgba(255,77,28,0.3);
+
+  --rc: #00D084;
+  --rc-bg: rgba(0,208,132,0.12);
+  --rc-border: rgba(0,208,132,0.3);
+
+  --tg: #0099FF;
+  --tg-bg: rgba(0,153,255,0.12);
+  --tg-border: rgba(0,153,255,0.3);
+
+  --rv: #FF3D9A;
+  --rv-bg: rgba(255,61,154,0.12);
+  --rv-border: rgba(255,61,154,0.3);
+
+  --py: #A855F7;
+  --py-bg: rgba(168,85,247,0.12);
+  --py-border: rgba(168,85,247,0.3);
+
+  --go: #888888;
+  --go-bg: rgba(136,136,136,0.12);
+  --go-border: rgba(136,136,136,0.3);
+
+  --high: #FF4D1C;
+  --med: #FFB800;
+  --low: #555;
+
+  --radius: 10px;
+  --radius-lg: 14px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 { font-family: 'Syne', sans-serif; }
+
+button {
+  cursor: pointer;
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  border: none;
+  outline: none;
+}
+
+input, select, textarea {
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  outline: none;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
